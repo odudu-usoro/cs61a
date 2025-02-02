@@ -23,9 +23,9 @@ def roll_dice(num_rolls, dice=six_sided):
     # BEGIN PROBLEM 1
     "*** YOUR CODE HERE ***"
     total = 0
-    sow_sad = false
+    sow_sad = False
 
-    for i in range(1, num_rolls):
+    for i in range(num_rolls):
         outcome = dice()
         total += outcome
         if (outcome == 1):
